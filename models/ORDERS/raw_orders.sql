@@ -1,5 +1,10 @@
-{{ config(materialized='view',
-    alias = 'raw_orders') }}
+{{ config(
+    schema = 'raw_cinch_test',
+    tags = ['raw_cinch_test'],
+    materialized='view',
+    alias = 'raw_orders',
+    copy_grants = true
+    ) }}
 
 
 with source as (
