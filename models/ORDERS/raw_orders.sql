@@ -1,5 +1,5 @@
 {{ config(materialized='view',
-    alias = 'order_tr') }}
+    alias = 'raw_orders') }}
 
 
 with source as (

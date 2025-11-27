@@ -7,7 +7,7 @@ sources:
     tables:
       - name: orders
 models:
-    - name: transformed_orders
+    - name: raw_orders
       description: " orders trasnformed table"
       columns:
           - name: order_id
