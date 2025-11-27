@@ -1,5 +1,10 @@
-{{ config(materialized='view',
-    alias = 'edw_orders') }}
+{{ config(
+    schema = 'edw_cinch_test',
+    tags = ['edw_cinch_test'],
+    materialized='view',
+    alias = 'edw_orders',
+    copy_grants = true
+    ) }}
 
 
 with stg_orders as (
