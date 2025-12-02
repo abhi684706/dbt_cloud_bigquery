@@ -44,3 +44,4 @@ daily_sales as (
 
 select * from daily_sales
 order by order_date desc
+
