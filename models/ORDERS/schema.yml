@@ -6,6 +6,7 @@ sources:
 
     tables:
       - name: orders
+      - name: cinchMicrostrategyEnrollments_mailgun_180
 models:
     - name: raw_orders
       description: " orders trasnformed table"
