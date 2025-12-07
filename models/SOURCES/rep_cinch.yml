@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: bigquery_source
+    schema: raw
+
+    tables:
+      - name: cinchMicrostrategyEnrollments_mailgun_180
+      - name: cinchGSheetBandAidEnrollClassificationOverwritedrive_395
