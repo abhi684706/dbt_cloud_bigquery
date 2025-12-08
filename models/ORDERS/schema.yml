@@ -8,6 +8,7 @@ sources:
       - name: orders
       - name: cinchMicrostrategyEnrollments_mailgun_180
       - name: cinchGSheetBandAidEnrollClassificationOverwritedrive_395
+      - name: cinchSFTPDTCEnrollments_ftp_345
 models:
     - name: raw_orders
       description: " orders trasnformed table"
