@@ -1,1 +1,0 @@
-Select * from {{ source('bigquery_source', 'cinchMicrostrategyEnrollments_mailgun_180') }}
