@@ -2,7 +2,7 @@
     schema = 'raw_cinch_test',
     tags = ['raw_cinch_test'],
     materialized='view',
-    alias = 'cinchMicrostrategyEnrollments_mailgun_180',
+    alias = 'cinch_microstrategy_enrollments_mailgun_180',
     copy_grants = true
     ) }}
 
